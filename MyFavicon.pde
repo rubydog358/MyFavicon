@@ -1,9 +1,28 @@
-// size must be 32x32
-size(32, 32);
+void setup()
 
-// draw something
-ellipse(width/2, height/2, width-1, height-1);
 
-// save it as an image file.
-// TODO: change the XYZ below to your initials 
-saveFrame("XYZ-favicon.png");
+{size(320,320);
+background(0);
+}
+
+void draw ()
+{
+  noStroke();
+  fill(145,255,3);
+  rect(130, 160, 60, 80);
+  rect(110, 140, 20, 40);
+  rect(90, 120, 20, 20);
+  rect(90, 160, 20, 100);
+  rect(110, 200, 20, 40);
+  rect(70, 180, 20, 40);
+  rect(50, 200, 20, 60);
+  rect(110, 260, 40, 20);
+  rect(190, 140, 20, 40);
+  rect(210, 120, 20, 20);
+  rect(190, 200, 20, 40);
+  rect(210, 160, 20, 100);
+  rect(230, 180, 20, 40);
+  rect(250, 200, 20, 60);
+  rect(170, 260, 40, 20);
+  
+}
